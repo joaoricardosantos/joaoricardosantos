@@ -58,44 +58,6 @@ Clean Architecture · Modular Monolith · CQRS · Vertical Slice · Result Patte
 
 ---
 
-## Projetos em destaque
-
-### Nuvio Platform
-Plataforma SaaS B2B white-label multi-tenant para os segmentos jurídico (PJe/TJRN) e condominial (Superlógica).
-
-- Modular monolith em .NET 10 com CQRS via MediatR e separação Domain/Application/Infrastructure/API
-- Autenticação com JWT (HS256), Argon2id e MFA via TOTP, com isolamento por tenant
-- Observabilidade com Serilog e OpenTelemetry
-- 202+ testes automatizados com pipeline CI/CD via GitHub Actions
-
-`.NET 10` · `ASP.NET Core` · `MediatR` · `EF Core` · `PostgreSQL` · `Docker` · `GitHub Actions`
-
----
-
-### Nuvio Point
-Sistema corporativo de controle de ponto biométrico — app mobile Flutter integrado a API .NET 10.
-
-- Aplicativo Flutter com reconhecimento facial via Google ML Kit
-- Captura de câmera, geolocalização e armazenamento seguro com flutter_secure_storage
-- Gerenciamento de estado com flutter_bloc e injeção via get_it/injectable
-- API .NET 10 com Clean Architecture e deploy para Fly.io, Railway e Render
-
-`Flutter` · `Dart` · `.NET 10` · `PostgreSQL` · `Docker` · `Google ML Kit`
-
----
-
-### RecebaAI
-Plataforma SaaS de cobranças com recorrência e checkout integrado via Stripe e IUGU.
-
-- API em Node.js/TypeScript com Fastify, Prisma e PostgreSQL
-- Pipeline CI/CD com lint, typecheck, Vitest e Playwright E2E — 105 testes passando
-- 8 vulnerabilidades críticas corrigidas: SSRF, XSS, race conditions, isolamento multi-tenant
-- Checkout recorrente via Stripe para automação de cobranças
-
-`Node.js` · `TypeScript` · `Fastify` · `Prisma` · `Vue 3` · `PostgreSQL` · `Stripe` · `Playwright`
-
----
-
 ## Estatísticas
 
 <p align="center">
